@@ -1,0 +1,96 @@
+h1 {
+    color: brown;
+    font-size: 2em;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+P{
+    font-style: italic;
+    color: darkolivegreen;
+}
+
+/* para que se muestre en horizontal */
+.menucustom {
+    padding: 5px;
+    display:flex;
+}
+
+/* para que no se vea feo el menu */
+.menucustom a{
+    margin: 2px;
+    padding: 10px;
+    border: 2px solid;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.toptres p{
+    font-style: normal;
+    color:chocolate;
+    font-size: 1em;
+}
+
+/* para que se muestre en horizontal top3 */
+.contpelis {
+    display: flex;
+}
+
+/* contenedor para cada peli */
+.divpeliH{
+    border: 2px solid;
+    margin: 2px;
+    height: 250px;
+    width: 300px;
+}
+
+.pelinomH{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    background-color:blanchedalmond;
+    color: brown;
+}
+
+.pelidescH{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    background-color:aliceblue;
+    color:dimgrey;
+}
+
+.peliimgdivH{
+    height: 60%;
+    width: 100%;
+    text-align: center;
+}
+
+.peliimgH{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* tenga relacion=contain, modo zoom=cover */
+}
+
+
+
+/* 
+No ha funcionado
+cuando pase por la img se muestre el texto
+.pelidescocultar{
+    border: 2px solid yellow;
+    height: 90%;
+    width: 100%;
+
+    para que se superponga
+    position: relative; 
+    display: inline-block; 
+}
+
+.pelidesc{
+    position: absolute; 
+    top: 0px; sin esto, no se superpone 
+    height: 100%;
+    width: 100%;
+}
+*/
