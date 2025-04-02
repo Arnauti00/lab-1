@@ -1,0 +1,74 @@
+h1 {
+    color: brown;
+    font-size: 2em;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+P{
+    font-style: italic;
+    color: darkolivegreen;
+}
+
+/* para que se muestre en horizontal */
+.menucustom {
+    padding: 5px;
+    display:flex;
+}
+
+/* para que no se vea feo el menu */
+.menucustom a{
+    margin: 2px;
+    padding: 10px;
+    border: 2px solid;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.toptres p{
+    font-style: normal;
+    color:chocolate;
+    font-size: 1em;
+}
+
+/* para que se muestre en horizontal top3 */
+.contpelis {
+    display: flex;
+}
+
+/* contenedor para cada peli */
+.divpeli{
+    border: 2px solid;
+    margin: 2px;
+    height: 300px;
+    width: 400px;
+}
+
+.pelinom{
+    height: 8%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    background-color:blanchedalmond;
+    color: brown;
+}
+
+.pelidesc{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    background-color:aliceblue;
+    color:dimgrey;
+}
+
+.peliimgdiv{
+    height: 62%;
+    width: 100%;
+    text-align: center;
+}
+
+.peliimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* tenga relacion=contain, modo zoom=cover */
+}
