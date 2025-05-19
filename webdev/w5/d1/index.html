@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentIndex</title>
+</head>
+<body>
+    <form id="infoForm" name="informacion" action="recibido.html" method="GET" autocomplete="off">
+
+        <label for="nomLab">Nombre: </label>
+        <input id="nomText" name="nombre" placeholder="nombre" type="text"> 
+        <br><br>
+
+        <label for="apeLab">Apellido: </label>
+        <input id="apeText" name="apellido" placeholder="apellido" type="text" required>
+        <br><br>
+
+        <label for="edadLab">Edad: </label>
+        <input id="edadText" name="edad" placeholder="18" type="number" min="18" max="120" step="1">
+        <br><br>
+
+        <label for="emailLab">Email: </label>
+        <input id="emailText" name="email" placeholder="email@email.com" type="email" required>
+        <br><br>
+
+        <label for="asuLab">Asunto: </label>
+        <input id="asuText" name="asunto" placeholder="asunto" type="text" required>
+        <br><br>
+
+        <!-- comentario max longi 150 caracteres -->
+        <label for="comeLab">Comentario: </label>
+        <br>
+        <textarea id="comeText" name="comentario" placeholder="comentario" cols="30" rows="5" maxlength="150"></textarea>
+        <br><br>
+
+        <input id="sendInfo" name="enviar" type="submit" value="Enviar">
+
+    </form>
+
+    
+</body>
+</html>

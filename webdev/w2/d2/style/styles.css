@@ -1,0 +1,122 @@
+/* que ocupe toda la pag */
+body{
+    margin: 0px;
+}
+
+.cabecera{
+    border: 2px solid red;
+    width: 100%;
+    height: 30px;display: flex;
+
+    color: brown;
+    font-size: 2em;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* menu en formato lista */
+.menucustom {
+    width: 100%;
+    height: 50px;
+}
+
+.menucustom ul{
+    height: inherit; /* importante, sino se baja y no toma el tam del padre*/
+
+    background-color:antiquewhite;
+    margin-top: 0px;
+}
+
+.menucustom li{
+    height: inherit; /* importante, sino se baja y no toma el tam del padre*/
+
+    list-style: none; /* no quiero que se muestre los puntos */
+    display: inline-flex; /* para que sea horizontal */
+    margin-right: 5px; /* como empezar por la izquierda?? */
+}
+
+.menucustom a{
+    text-decoration: none; /* sin underline */
+    color: black;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color:lightgrey;
+    border: 2px solid black;
+}
+
+
+
+/*
+p {
+    font-style: italic;
+    color: #556b2f;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+*/
+
+
+/* mas formas de css */
+.toptres p{
+    font-style: normal;
+    color:chocolate;
+    font-size: 1em;
+    word-spacing: 2px;
+}
+
+.toptres span{
+    text-decoration: underline;
+}
+
+.mucho{
+    text-shadow: 3px 3px 3px rgb(68, 59, 59);
+}
+
+/* para que se muestre en horizontal top3 */
+.contpelis {
+    display: flex;
+}
+
+/* contenedor para cada peli */
+.divpeli{
+    border: 2px solid;
+    margin: 2px;
+    height: 300px;
+    width: 400px;
+}
+
+.pelinom{
+    height: 8%;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    background-color:blanchedalmond;
+    color: brown;
+    font-weight: bolder;
+}
+
+.pelidesc{
+    height: 30%;
+    width: 100%;
+    text-align: justify;
+    text-transform: lowercase;
+    background-color:aliceblue;
+    color:dimgrey;
+    text-indent: 1em;
+}
+
+.pelidesc span{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.peliimgdiv{
+    height: 62%;
+    width: 100%;
+    text-align: center;
+}
+
+.peliimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* tenga relacion=contain, modo zoom=cover */
+}
